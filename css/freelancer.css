@@ -31,6 +31,7 @@ h6 {
   text-transform: uppercase;
   font-weight: 700;
 }
+/* --------------------------------------------------------------------------------------*/
 hr.star-light,
 hr.star-primary {
   padding: 0;
@@ -51,26 +52,95 @@ hr.star-primary:after {
   padding: 0 0.25em;
 }
 hr.star-light {
-  border-color: white;
-}
-hr.star-light:after {
-  background-color: #18BC9C;
-  color: white;
-}
-hr.star-primary {
   border-color: #2C3E50;
 }
-hr.star-primary:after {
-  background-color: white;
+hr.star-light:after {
+  background-color: #D3D3D3;
   color: #2C3E50;
 }
+hr.star-primary {
+  border-color: #D3D3D3;
+}
+hr.star-primary:after {
+  background-color: #2C3E50;
+  color: #D3D3D3;
+}
+/*--------------------------------------------------------------------------------------------------*/
+hr.star-light2,
+hr.star2-primary {
+  padding: 0;
+  border: none;
+  border-top: solid 5px;
+  text-align: center;
+  max-width: 250px;
+  margin: 25px auto 30px;
+}
+hr.star2-light:after,
+hr.star2-primary:after {
+  content: "\f005";
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top: -0.8em;
+  font-size: 2em;
+  padding: 0 0.25em;
+}
+hr.star2-light {
+  border-color: #2C3E50;
+}
+hr.star2-light:after {
+  background-color: #D3D3D3;
+  color: #2C3E50;
+}
+hr.star2-primary {
+  border-color: #D3D3D3;
+}
+hr.star2-primary:after {
+  background-color: #2C3E50;
+  color: #D3D3D3;
+}
+/*--------------------------------------------------------------------------------------------------*/
+hr.star-light3,
+hr.star3-primary {
+  padding: 0;
+  border: none;
+  border-top: solid 5px;
+  text-align: center;
+  max-width: 250px;
+  margin: 25px auto 30px;
+}
+hr.star3-light:after,
+hr.star3-primary:after {
+  content: "\f005";
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top: -0.8em;
+  font-size: 2em;
+  padding: 0 0.25em;
+}
+hr.star3-light {
+  border-color: #2C3E50;
+}
+hr.star3-light:after {
+  background-color: #D3D3D3;
+  color: #2C3E50;
+}
+hr.star3-primary {
+  border-color: #D3D3D3;
+}
+hr.star3-primary:after {
+  background-color: #2C3E50;
+  color: #D3D3D3;
+}
+
 .img-centered {
   margin: 0 auto;
 }
 header {
   text-align: center;
-  background: #18BC9C;
-  color: white;
+  background: #D3D3D3;
+  color: #2C3E50;
 }
 header .container {
   padding-top: 100px;
@@ -186,7 +256,7 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #18BC9C;
+  background: #2C3E50;
   color: white;
 }
 @media (max-width: 767px) {
