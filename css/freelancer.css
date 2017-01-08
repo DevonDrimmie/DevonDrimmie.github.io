@@ -59,11 +59,11 @@ hr.star-light:after {
   color: #2C3E50;
 }
 hr.star-primary {
-  border-color: #D3D3D3;
+  border-color: #000000;
 }
 hr.star-primary:after {
-  background-color: #2C3E50;
-  color: #D3D3D3;
+  background-color: #ffffff;
+  color: #000000;
 }
 /*--------------------------------------------------------------------------------------------------*/
 hr.star-light2,
@@ -89,15 +89,15 @@ hr.star2-light {
   border-color: #2C3E50;
 }
 hr.star2-light:after {
-  background-color: #D3D3D3;
-  color: #2C3E50;
+  background-color: #ff0000;
+  color: #ff0000;
 }
 hr.star2-primary {
-  border-color: #D3D3D3;
+  border-color: #ff0000;
 }
 hr.star2-primary:after {
-  background-color: #2C3E50;
-  color: #D3D3D3;
+  background-color: #ff0000;
+  color: #ff0000;
 }
 /*--------------------------------------------------------------------------------------------------*/
 hr.star-light3,
@@ -120,18 +120,18 @@ hr.star3-primary:after {
   padding: 0 0.25em;
 }
 hr.star3-light {
-  border-color: #2C3E50;
+  border-color: #ff0000;
 }
 hr.star3-light:after {
-  background-color: #D3D3D3;
-  color: #2C3E50;
+  background-color: #ff0000;
+  color: #ff0000;
 }
 hr.star3-primary {
-  border-color: #D3D3D3;
+  border-color: #ff0000;
 }
 hr.star3-primary:after {
-  background-color: #2C3E50;
-  color: #D3D3D3;
+  background-color: ##ff0000;
+  color: #ff0000;
 }
 
 .img-centered {
@@ -288,12 +288,10 @@ section.portfolio {
   width: 100%;
   height: 100%;
   opacity: 0;
-  transition: all ease 0.5s;
-  -webkit-transition: all ease 0.5s;
-  -moz-transition: all ease 0.5s;
+
 }
 #portfolio .portfolio-item .portfolio-link .caption:hover {
-  opacity: 1;
+  opacity: 0;
 }
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
   position: absolute;
